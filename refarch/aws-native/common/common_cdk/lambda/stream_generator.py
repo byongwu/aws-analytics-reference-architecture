@@ -49,7 +49,7 @@ def lambda_handler(event, context):
                     Records=records,
                     StreamName=stream_name
                 )
-            s3_client.delete_object(Bucket=bucket, Key=key)
+            # s3_client.delete_object(Bucket=bucket, Key=key)
 
     except Exception as e:
         raise e
