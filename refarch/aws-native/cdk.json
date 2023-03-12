@@ -6,14 +6,14 @@
     "EnableDWH": "true",
     "EnableDataviz": "true",
     "EnableStreaming": "true",
-    "EnableCICD": "false",
+    "EnableCICD": "true",
     "CICDParameters": {
-      "RepositoryName": "<REPOSITORY_NAME>",
-      "RepositoryBranch": "<REPOSITORY_BRANCH>",
-      "ConnectionArn": "<CONNECTION_ARN>"
+      "RepositoryName": "byongwu/aws-analytics-reference-architecture",
+      "RepositoryBranch": "main",
+      "ConnectionArn": "arn:aws:codestar-connections:eu-west-1:110817739654:connection/00666acb-9761-4c0d-8b43-735678413708"
     },
-    "QuickSightUsername": "<QUICKSIGHT_USERNAME>",
-    "QuickSightIdentityRegion": "<QUICKSIGHT_IDENTITY_REGION>",
+    "QuickSightUsername": "Admin/byochong-Isengard",
+    "QuickSightIdentityRegion": "eu-west-1",
     "EnableDeploymentTracking": "true"
   }
 }
